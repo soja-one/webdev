@@ -1,0 +1,13 @@
+body{
+    background-color:powderblue;}
+h1 { 
+  color: blue;
+  border:2px solid white;
+  padding:10px;
+  margin: 20px;
+  font-family:tahoma;
+   }
+
+p {
+   color:red; 
+   }
