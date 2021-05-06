@@ -4,6 +4,20 @@
 <html lang = "en-US">
 <head>
 <title>SMART TECHNOLOGIES</title>
+<meta charset="UTF-8">
+<meta name = "keywords" content="HTML, CSS,Javascript">
+<meta name = "description" content = "Learning Web development">
+<meta name = "author" content = "Soja One">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+function myFunction2() {
+  document.getElementById("demo").innerHTML = "Javascript Basics";
+
+}
+
+</script>
+
 <link rel= "stylesheet" href="styles.css">
 <style>
 a:link{
@@ -239,7 +253,15 @@ This bitcoin image is from an external site <img src= "https://www.physicalbitco
 <p> My favorite color is <span style= "background-color: orange; color:white" >Orange </span> </p>
 <p> This is edited from <span class ="git";> GitHub </span> website </p>
 
+<iframe src="iframe.htm" height:"200" width:"300" style= "border:none" title= "Iframe example" > </iframe>
 
+<br>
+
+<button type = "button" onclick = "document.getElementById('demo').innerHTML = Date()"> Click me to display Date and Time </button>
+<p id = "demo" > </p>
+
+<p id= "demo">Practicing Javascript Basics</p>
+<button type= "button" onclick = "myFunction2()"> Click Me </button>
 </body>
 
 
