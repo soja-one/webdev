@@ -295,7 +295,7 @@ This is particularly true for topics that you are very enthusiastic about.
 <p>  This will display the  <span style= "color:black" >black spade &#9824, black club suite 	&#9827, black heart suit &#9829, and black diamond suit &#9830; </span></p>
  <h2> HTML FORMS</h2>
 
-<div style="background-color:#A0B0C0">
+<div style="background-color:#A0B0C0";>
 <form>
 <fieldset>
 <legend>Bio</legend>
@@ -307,10 +307,20 @@ This is particularly true for topics that you are very enthusiastic about.
 <label for "male">Male </label> <br>
 <input type="radio" id="female" name="gender" value"female">
 <label for "female"> Female </label> <br>
+<label for"dob">Date of birth</label>
+<input type="date" id="dob" name="dob">
+<br><br>
+<label for"phoneNumber">Enter Phone Number</label>
+<input type="tel" id="phoneNumber" name="phoneNumber" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
+<br>
+<label for"email">Enter your email address </label>
+<input type= "email" id="email" name="email">
+<br>
+<input type="submit">
+<input type="reset">
 </fieldset>
 </form>
 </div>
-
 
 <br>
 
@@ -327,11 +337,7 @@ This is particularly true for topics that you are very enthusiastic about.
 </fieldset>
 </form>
 
-
-
-
 <br><br>
-
 
 <form>
 <label for"cars"> select a car</label>
@@ -341,6 +347,10 @@ This is particularly true for topics that you are very enthusiastic about.
 <option value="Audi"> Audi</option>
 <option value="fiat"> Fiat</option>
 </select>
+<br>
+<label for"favcolor">select your favorite color</label> 
+
+<input type="color" id="favcolor" name="favcolor"
 <input type="submit">
 </form>
 
@@ -350,11 +360,30 @@ This is particularly true for topics that you are very enthusiastic about.
 <textarea name="message" rows="10" cols="30"> Write about yourself
 </textarea>
 <input type="submit">
+<input type="reset">
+</form>
+<br>
+
+<form>
+<fieldset>
+<legend>Profile Picture </legend>
+<label for"myfile">Select a file </label> 
+<input type="file" id="myfile" name"myfile">
+</fieldset>
+<form>
+<br><br>
+
+<form>
+<fieldset>
+<legend>Readonly</legend>
+<label for"occupation">Occupation</label>
+<input type="text" id="occupation" name="occupation" value="Student" readonly>
+
+</fieldset>
 </form>
 
+<br><br>
 <button type="button" onclick="alert('Hello!')"> click me </button>
 
 </body>
-
-
 </html>
