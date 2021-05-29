@@ -384,6 +384,36 @@ This is particularly true for topics that you are very enthusiastic about.
 
 <br><br>
 <button type="button" onclick="alert('Hello!')"> click me </button>
+<br><br>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #a3b3c3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+</script> 
+<br><br>
+
+<video width="400" controls>
+<source src="video/mov_bbb.mp4" type="video/mp4">
+Your browser does not support HTML video.
+</video>
+<br><br>
+
+<audio controls>
+<source src="audio/horse.mp3" type="audio/mp3">
+</audio>
+<hr>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=1">
+</iframe>
+
+<br>
+<h1>End of HTML TUTORIAL</h1>
 
 </body>
 </html>
