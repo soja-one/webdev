@@ -1,0 +1,52 @@
+p.dotted{
+ border-style:dotted;
+ border-color: lightblue;
+}
+
+
+p.solid{
+ border-style:solid;
+ border-color: red;
+}
+
+p.multiborder{
+ border-top-style:solid;
+ border-right-style:dotted;
+ border-left-style: dashed;
+ border-bottom-style: double;
+}
+
+p.shorthand{
+ border:5px dotted blue;
+ color:red;
+
+}
+
+p.onesideborder{
+ border-left:6px solid red;
+ background-color:lightgrey;
+}
+
+p.roundedge{
+ border: 2px solid green;
+ border-radius:10px;
+}
+
+div.format{
+ border:2px solid blue;
+ border-radius:10px;
+ margin-top:20px;
+ margin-right:30px;
+ margin-bottom:40px;
+ margin-left:50px;
+ background-color:lightgrey;
+}
+
+div.height{
+ border:3px solid blue;
+ margin: 30px;
+ height:50px;
+ width:50%;
+ color:orange;
+}
+
