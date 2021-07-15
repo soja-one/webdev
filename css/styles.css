@@ -50,3 +50,47 @@ div.height{
  color:orange;
 }
 
+h1.formatH{
+ text-align:center;
+ text-transform: uppercase;
+ color:#4CAF50;
+}
+
+p.formatP{
+ text-indent=50px;
+ text-align=justify;
+ letter-spacing:3px;
+}
+
+p.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.serif{
+    font-family:'Times New Roman', Times, serif;
+}
+
+p.monospace{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.cursive {
+    font-family:'Brush Script MT',cursive;
+}
+
+p.fantasy {
+    font-family: Copperplate,Papyrus,fantasy;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.smallcaps{
+    font-variant: small-caps;
+}
+
